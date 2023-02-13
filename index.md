@@ -6,20 +6,20 @@
 
 ### #4 What it takes to win at the PGA Tour
 
-[<img src="images/driving_p.png" />](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
+[<img src="images/driving_p.png" width="900" height="500"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
 ---
 
 ### #3 Evolution of song lyrics since the 50s
 
-[<img src="images/driving_p.png" />](https://chusikowski.substack.com/p/evolution-of-song-lyrics-since-the)
+[<img src="images/newplot(50).png" width="900" height="500" />](https://chusikowski.substack.com/p/evolution-of-song-lyrics-since-the)
 ---
 
 ### #2 What the top 100 Spotify hits tell us about a countries' musical taste
 
-[<img src="images/driving_p.png" />](https://chusikowski.substack.com/p/the-spotify-series-1)
+[<img src="images/newplot(37).png" width="900" height="500" />](https://chusikowski.substack.com/p/the-spotify-series-1)
 ---
 
 ### #1 High-pressure points in Tennis and The Big 3
 
-[<img src="images/driving_p.png" />](https://chusikowski.substack.com/p/high-pressure-points-in-tennis-and)
+[<img src="images/newplot(3).png" width="900" height="500" />](https://chusikowski.substack.com/p/high-pressure-points-in-tennis-and)
 ---
