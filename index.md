@@ -23,3 +23,9 @@
 
 [<img src="images/newplot(3).png"/>](https://chusikowski.substack.com/p/high-pressure-points-in-tennis-and)
 ---
+
+---
+
+## Other
+
+### Breast Cancer Prediction
