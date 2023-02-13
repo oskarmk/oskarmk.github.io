@@ -4,7 +4,7 @@
 
 ### Newsletter
 
-[What it takes to win at the PGA Tour](/sample_page)
-<img src="images/puttin_p.png"/>
+What it takes to win at the PGA Tour
+![](images/putting_p.png)
 
 
