@@ -1,13 +1,12 @@
-## Portfolio
+# Portfolio
 
 ---
 
-### Newsletter
+## Newsletter
 
-What it takes to win at the PGA Tour
-![](images/putting_p.png "Tu culo en mi cara")
+### #4 What it takes to win at the PGA Tour
 
-
+[<img src="images/driving_p.png" />](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
 ---
 
 
