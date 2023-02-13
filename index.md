@@ -29,3 +29,5 @@
 ## Other
 
 ### Breast Cancer Prediction
+
+[<img src="images/newplot(3).png"/>](https://https://github.com/oskarmk/oskarmk.github.io/edit/main/html/breast-cancer-pred.html)
