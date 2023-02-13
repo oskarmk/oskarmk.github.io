@@ -33,4 +33,4 @@
 In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.
 
 
-[<img src="images/newplot(3).png"/>](https://https://github.com/oskarmk/oskarmk.github.io/edit/main/html/breast-cancer-pred.html)
+[<img src="images/bresast-cancer-pred.png"/>](https://https://github.com/oskarmk/oskarmk.github.io/edit/main/html/breast-cancer-pred.html)
