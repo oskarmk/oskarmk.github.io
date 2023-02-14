@@ -4,7 +4,8 @@ description: > # your text below (remove <br> elements if you don't need line br
   it's me, hi. I'm the problem it's me
   
   <!-- Font Awesome 5.15.1 CSS -->
-  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
+  <!--link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css' -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
 
 
   <br><br>
