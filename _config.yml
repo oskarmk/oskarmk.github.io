@@ -2,7 +2,7 @@ title: Oskar Martin Kieliger # your name (or website title) here
 logo: "images/download (4).png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   Skilled RPA Developer with a strong interest in machine learning and data analysis. Proficient in developing and implementing RPA solutions to automate business processes and enhance efficiency.
-  <br><br>
+  <br>
   Experienced in utilizing various machine learning and data analysis tools and techniques to extract insights and drive data-driven decision-making. Possessing a solid understanding of data structures and algorithms, as well as exceptional problem-solving and analytical skills. Adept at optimizing processes and identifying areas for improvement.
   
   <!-- Font Awesome 5.15.1 CSS -->
@@ -11,7 +11,7 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 
   <br><br>
-  <a href="https://github.com/oskarmk/oskarmk.github.io/tree/main/pdf/Oskar Martin Resume EN.pdf" class="fa-solid fa-file-lines" target="blank_">   CV</a>
+  <a href="https://github.com/oskarmk/oskarmk.github.io/tree/main/pdf/Oskar Martin Resume EN.pdf" class="fa-solid fa-file-lines" target="blank_"></a> CV
   <br><br>
   <a href="https://www.linkedin.com/in/oskarmartin/" class="fab fa-brands fa-linkedin" target="blank_">   LinkedIn</a>
   <br><br>
