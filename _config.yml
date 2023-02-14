@@ -7,6 +7,39 @@ description: > # your text below (remove <br> elements if you don't need line br
 <!-- Add icon library -->
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
+<style>
+        .fa:hover {
+            opacity: 0.9;
+        }
+  
+        .fa-linkedin {
+            background: #007bb5;
+            color: white;
+        }
+  
+        .fa-pinterest {
+            background: #cb2027;
+            color: white;
+        }
+  
+        .fa-reddit {
+            background: #ff5700;
+            color: white;
+        }
+  
+        .fa {
+            padding: 20px;
+            font-size: 40px;
+            width: 60px;
+            text-decoration: none;
+            margin: 5px 80px;
+        }
+  
+        h1 {
+            color: green;
+        }
+    </style>
+
 
   <br><br>
   <a href="https://www.linkedin.com/in/oskarmartin/" class="fa fa-facebook" target="blank_">LinkedIn</a>
