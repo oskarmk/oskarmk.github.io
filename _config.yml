@@ -8,14 +8,15 @@ description: > # your text below (remove <br> elements if you don't need line br
 
 
   <br><br>
-  <a href="https://github.com/oskarmk/oskarmk.github.io/tree/main/pdf/Oskar Martin Resume EN.pdf" class="fa-solid fa-file-lines" target="blank_">CV</a>
+  <a href="https://github.com/oskarmk/oskarmk.github.io/tree/main/pdf/Oskar Martin Resume EN.pdf" class="fa-solid fa-file-lines" target="blank_">  CV</a>
   <br><br>
-  <a href="https://www.linkedin.com/in/oskarmartin/" class="fab fa-brands fa-linkedin" target="blank_">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/oskarmartin/" class="fab fa-brands fa-linkedin" target="blank_">  LinkedIn</a>
   <br><br>
-  <a href="https://chusikowski.substack.com/" class="fa-solid fa-newspaper" target="blank_">Substack</a>
+  <a href="https://chusikowski.substack.com/" class="fa-solid fa-newspaper" target="blank_">  Substack</a>
   <br><br>
-  <a href="https://github.com/oskarmk" class="fa-brands fa-github" target="blank_">Github</a>
-
+  <a href="https://github.com/oskarmk" class="fa-brands fa-square-github" target="blank_">  Github</a>
+  <br><br>
+  <a href="https://www.instagram.com/zmadh.art/" class="fa-brands fa-square-instagram" target="blank_">  AI Art</a>
   
 theme: jekyll-theme-minimal
 google_analytics: UA-000000-0 # your Google Analytics tracking ID here
