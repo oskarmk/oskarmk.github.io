@@ -2,10 +2,13 @@ title: Oskar Martin Kieliger # your name (or website title) here
 logo: "images/download (4).png" # your photo (or logo) here
 description: > # your text below (remove <br> elements if you don't need line breaks)
   it's me, hi. I'm the problem it's me
+  
+  <!-- Font Awesome 5.15.1 CSS -->
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css'>
 
 
   <br><br>
-  <a href="https://www.linkedin.com/in/oskarmartin/" target="blank_">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/oskarmartin/" class="fab fa-facebook-f" target="blank_">LinkedIn</a>
   <br><br>
   <a href="https://chusikowski.substack.com/" target="blank_">Substack</a>
   <br><br>
