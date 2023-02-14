@@ -39,10 +39,17 @@ description: > # your text below (remove <br> elements if you don't need line br
             color: green;
         }
     </style>
-
+  <body>
+      <center>
+          <h1>GEEKSFORGEEKS</h1>
+          <h3>Google Font Icon</h3>
+          <i class="material-icons android">android </i>
+          <i class="material-icons facebook">facebook</i>
+      </center>
+  </body>
 
   <br><br>
-  <a href="https://www.linkedin.com/in/oskarmartin/" class="fa fa-facebook" target="blank_">LinkedIn</a>
+  <a href="https://www.linkedin.com/in/oskarmartin/" target="blank_">LinkedIn</a>
   <br><br>
   <a href="https://chusikowski.substack.com/" target="blank_">Substack</a>
   <br><br>
