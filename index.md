@@ -61,4 +61,4 @@ In this project I am going to perform Data Exploratio, Data Preprocessing & Feat
 
 [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
 
-[<img src="images/sdf.png"/>](//https://github.com/oskarmk/oskarmk.github.io/edit/main/html/honor-prediction.html)
+[<img src="images/sdf.png"/>](https://github.com/oskarmk/spotify/blob/decade/honor-prediction.html)
