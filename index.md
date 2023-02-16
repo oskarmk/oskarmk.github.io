@@ -50,7 +50,7 @@ In this episode, I will explore the performance of TB3 versus its peers in the A
 
 In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.
 
-[<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
+[<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/breast-cancer-pred.ipynb)
 
 [<img src="images/bresast-cancer-pred.png"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/breast-cancer-pred.ipynb)
 
