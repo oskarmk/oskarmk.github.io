@@ -8,7 +8,7 @@
 
 In this article, I will be exploring PGA Tour Data from 2015-2022 focusing on ‘strokes gained’ metrics to analyze what it takes to succeed in the most competitive golf tour on the planet.
 
-[<img src="https://img.shields.io/badge/Substack-Golf-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)  [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/golf.ipynb)
+[<img src="https://img.shields.io/badge/Substack-Golf-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)  [<img src="https://img.shields.io/badge/Github-Repository-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/golf.ipynb)
 
 [<img src="images/driving_p.png"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
 
@@ -18,7 +18,7 @@ In this article, I will be exploring PGA Tour Data from 2015-2022 focusing on �
 
 Is music really that different from back in the day? In my last article, I explored how countries like different music styles based on their Spotify Hitlists. In this article, I will take a look at the past and analyze how music has evolved since the fifties through a sentiment and a topic analysis.
 
-[<img src="https://img.shields.io/badge/Substack-Spotify-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/evolution-of-song-lyrics-since-the)  [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-181717?logo=GitHub"/>](https://github.com/oskarmk/spotify)
+[<img src="https://img.shields.io/badge/Substack-Spotify-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/evolution-of-song-lyrics-since-the)  [<img src="https://img.shields.io/badge/Github-Repository-181717?logo=GitHub"/>](https://github.com/oskarmk/spotify)
 
 [<img src="images/newplot(50).png"/>](https://chusikowski.substack.com/p/evolution-of-song-lyrics-since-the)
 
