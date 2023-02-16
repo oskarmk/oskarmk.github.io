@@ -59,6 +59,6 @@ In this project I am going to perform comprehensive EDA on the breast cancer dat
 
 In this project I am going to perform Data Exploratio, Data Preprocessing & Feature Engineering and train Different models optimizing the hyper-parameters to predict wether a reservation will be canceled or not
 
-[<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
+[<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/honor-prediction(1).ipynb)
 
-[<img src="images/sdf.png"/>](https://github.com/oskarmk/spotify/blob/decade/honor-prediction.html)
+[<img src="images/sdf.png"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/honor-prediction(1).ipynb)
