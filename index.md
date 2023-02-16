@@ -8,7 +8,7 @@
 
 In this article, I will be exploring PGA Tour Data from 2015-2022 focusing on ‘strokes gained’ metrics to analyze what it takes to succeed in the most competitive golf tour on the planet.
 
-[<img src="https://img.shields.io/badge/Substack-Golf-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour) {:target="_blank"} [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/golf.ipynb){:target="_blank"}
+[<img src="https://img.shields.io/badge/Substack-Golf-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour){:target="_blank"} [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/golf.ipynb){:target="_blank"}
 
 [<img src="images/driving_p.png"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour){:target="_blank"}
 
