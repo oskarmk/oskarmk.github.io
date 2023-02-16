@@ -28,7 +28,7 @@ Is music really that different from back in the day? In my last article, I explo
 
 Is it true that Spain only listens to flamenco? Do Germans even listen to music? What is Mexican music like? A lot of stereotypes exist about the different countries, in this article, I will explore countries’ musical tastes based on their Spotify hit lists.
 
-[<img src="https://img.shields.io/badge/Substack-Spotify-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/the-spotify-series-1)    [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-181717?logo=GitHub"/>](https://github.com/oskarmk/spotify)
+[<img src="https://img.shields.io/badge/Substack-Spotify-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/the-spotify-series-1)    [<img src="https://img.shields.io/badge/Github-Repository-181717?logo=GitHub"/>](https://github.com/oskarmk/spotify)
 
 [<img src="images/newplot(37).png"/>](https://chusikowski.substack.com/p/the-spotify-series-1)
 
