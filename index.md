@@ -52,7 +52,7 @@ In this project I am going to perform comprehensive EDA on the breast cancer dat
 
 [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://chusikowski.substack.com/p/what-does-it-take-to-win-a-pga-tour)
 
-[<img src="images/bresast-cancer-pred.png"/>](//https://github.com/oskarmk/oskarmk.github.io/edit/main/html/breast-cancer-pred.ipynb)
+[<img src="images/bresast-cancer-pred.png"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/breast-cancer-pred.ipynb)
 
 
 ### Predict if Booking will be canceled or not
