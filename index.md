@@ -4,6 +4,16 @@
 
 ## Newsletter
 
+### #5 A study on the most offensive teams in Europe
+
+Football coaches are known for making bold statements about their teams. Still, when FC Barcelona coach Xavi Hernandez recently boasted that his team is the most offensive team in Europe along with Manchester City, it raised some eyebrows (even Ancelotti’s unsurprisingly). In this article, I will explore the validity of this claim by analyzing data from the teams in the five big European football leagues: La Liga, Premier League, Serie A, Bundesliga, and Ligue 1
+
+[<img src="https://img.shields.io/badge/Substack-Golf-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/a-study-on-the-most-offensive-teams){:target="_blank"} [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/golf.ipynb){:target="_blank"}
+
+[<img src="images/driving_p.png"/>](https://chusikowski.substack.com/p/a-study-on-the-most-offensive-teams){:target="_blank"}
+
+---
+
 ### #4 What it takes to win at the PGA Tour
 
 In this article, I will be exploring PGA Tour Data from 2015-2022 focusing on ‘strokes gained’ metrics to analyze what it takes to succeed in the most competitive golf tour on the planet.
