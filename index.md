@@ -8,7 +8,7 @@
 
 Football coaches are known for making bold statements about their teams. Still, when FC Barcelona coach Xavi Hernandez recently boasted that his team is the most offensive team in Europe along with Manchester City, it raised some eyebrows (even Ancelotti’s unsurprisingly). In this article, I will explore the validity of this claim by analyzing data from the teams in the five big European football leagues: La Liga, Premier League, Serie A, Bundesliga, and Ligue 1
 
-[<img src="https://img.shields.io/badge/Substack-Golf-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/a-study-on-the-most-offensive-teams){:target="_blank"} [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/historical.ipynb){:target="_blank"}
+[<img src="https://img.shields.io/badge/Substack-Barça-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/a-study-on-the-most-offensive-teams){:target="_blank"} [<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/historical.ipynb){:target="_blank"}
 
 [<img src="images/takeons.png"/>](https://chusikowski.substack.com/p/a-study-on-the-most-offensive-teams){:target="_blank"}
 
