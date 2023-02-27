@@ -4,6 +4,16 @@
 
 ## Newsletter
 
+### #6 On the impact of Messi in La Liga
+
+ In this article, I will study the impact Messi had on La Liga based on the number of goals Barça scored in the studied period. For reference, I will include Real Madrid C.F. since it is the most successful team to ever play the sport.
+
+[<img src="https://img.shields.io/badge/Substack-Messi-FF6719?logo=Substack"/>](https://chusikowski.substack.com/p/on-the-impact-of-messi-in-la-liga){:target="_blank"}
+
+[<img src="images/violins.png"/>](https://chusikowski.substack.com/p/on-the-impact-of-messi-in-la-liga){:target="_blank"}
+
+---
+
 ### #5 A study on the most offensive teams in Europe
 
 Football coaches are known for making bold statements about their teams. Still, when FC Barcelona coach Xavi Hernandez recently boasted that his team is the most offensive team in Europe along with Manchester City, it raised some eyebrows (even Ancelotti’s unsurprisingly). In this article, I will explore the validity of this claim by analyzing data from the teams in the five big European football leagues: La Liga, Premier League, Serie A, Bundesliga, and Ligue 1
