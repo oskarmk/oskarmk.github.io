@@ -63,22 +63,3 @@ In this episode, I will explore the performance of TB3 versus its peers in the A
 [<img src="images/newplot(3).png"/>](https://chusikowski.substack.com/p/high-pressure-points-in-tennis-and){:target="_blank"}
 
 ---
-
-## Other
-
-### Predict Breast Cancer with RF, PCA and SVM using Python
-
-In this project I am going to perform comprehensive EDA on the breast cancer dataset, then transform the data using Principal Components Analysis (PCA) and use Support Vector Machine (SVM) model to predict whether a patient has breast cancer.
-
-[<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/breast-cancer-pred.ipynb){:target="_blank"}
-
-[<img src="images/bresast-cancer-pred.png"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/breast-cancer-pred.ipynb){:target="_blank"}
-
-
-### Predict if Booking will be canceled or not
-
-In this project I am going to perform Data Exploratio, Data Preprocessing & Feature Engineering and train Different models optimizing the hyper-parameters to predict wether a reservation will be canceled or not
-
-[<img src="https://img.shields.io/badge/Jupyter-Open Notebook-F37626?logo=Jupyter"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/honor-prediction(1).ipynb){:target="_blank"}
-
-[<img src="images/sdf.png"/>](https://github.com/oskarmk/oskarmk.github.io/blob/main/html/honor-prediction(1).ipynb){:target="_blank"}
