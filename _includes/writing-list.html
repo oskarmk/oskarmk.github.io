@@ -1,0 +1,23 @@
+{% comment %}
+  Combined list of posts on this site + older Substack pieces (_data/writing.yml).
+  Params: limit (number), group (true = group by year), selected (true = only featured)
+{% endcomment %}
+{% assign items = site.posts | concat: site.data.writing | sort: "date" | reverse %}
+{% if include.selected %}{% assign items = items | where: "selected", true %}{% endif %}
+{% if include.limit %}{% assign items = items | slice: 0, include.limit %}{% endif %}
+
+{% if include.group %}
+  {% assign years = items | group_by_exp: "i", "i.date | date: '%Y'" %}
+  {% for year in years %}
+  <section class="year">
+    <h3 class="year-label">{{ year.name }}</h3>
+    <ul class="entries">
+      {% for item in year.items %}{% include writing-item.html item=item extras=include.extras %}{% endfor %}
+    </ul>
+  </section>
+  {% endfor %}
+{% else %}
+  <ul class="entries">
+    {% for item in items %}{% include writing-item.html item=item extras=include.extras %}{% endfor %}
+  </ul>
+{% endif %}

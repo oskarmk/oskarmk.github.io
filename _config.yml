@@ -1,11 +1,32 @@
 title: Oskar Martin
 logo: "images/download (4).png"
-description: Software developer focused on automation and machine learning. Data stories about sport and music.
+description: Software developer focused on automation and machine learning. Essays and data stories about sport and music.
 url: "https://oskarmk.github.io"
 author: Oskar Martin
+lang: en
+
+permalink: /writing/:title/
+
+markdown: kramdown
+kramdown:
+  input: GFM
+  hard_wrap: false
+  syntax_highlighter: rouge
+  footnote_backlink: "↩︎"
 
 plugins:
   - jekyll-seo-tag
+  - jekyll-feed
+
+feed:
+  path: feed.xml
+
+defaults:
+  - scope:
+      path: ""
+      type: posts
+    values:
+      layout: post
 
 exclude:
   - README.md
