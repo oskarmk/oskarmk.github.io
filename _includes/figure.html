@@ -1,8 +1,8 @@
 {% comment %}
-  {% include figure.html src="/images/chart.png" alt="..." caption="Source: ..." size="wide" %}
-  size: (default) text width · "wide" breaks out of the column · "small" for narrow images
+  {% include figure.html src="/images/chart.png" alt="..." caption="Source: ..." width="wide" %}
+  width: (default) text width · "wide" breaks out of the column · "small" for narrow images
 {% endcomment %}
-<figure class="figure{% if include.size %} {{ include.size }}{% endif %}">
+<figure class="figure{% if include.width %} {{ include.width }}{% endif %}">
   <img src="{{ include.src | relative_url }}" alt="{{ include.alt | default: include.caption | strip_html }}" loading="lazy">
   {% if include.caption %}<figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
 </figure>

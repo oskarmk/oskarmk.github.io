@@ -28,11 +28,11 @@ Use `##` for sections and `###` for sub-sections. Keep paragraphs short; the col
 
 Wide figures break out of the text column on big screens:
 
-{% include figure.html src="/images/takeons.png" caption="Take-ons per 90 minutes across the five big leagues." size="wide" %}
+{% include figure.html src="/images/takeons.png" caption="Take-ons per 90 minutes across the five big leagues." width="wide" %}
 
 Interactive charts (an exported Plotly `.html`, Datawrapper, Flourish) go in an iframe:
 
-<!-- {% include embed.html src="/charts/slug/chart.html" height="460" caption="Hover for details." size="wide" %} -->
+<!-- {% include embed.html src="/charts/slug/chart.html" height="460" caption="Hover for details." width="wide" %} -->
 
 ### Quotes, pull quotes and notes
 

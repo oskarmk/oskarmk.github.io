@@ -136,7 +136,7 @@ html[data-theme="dark"] .theme-toggle .moon { display: none; }
   background: var(--paper-deep);
 }
 .intro p { margin: 0 0 14px; }
-.intro .lede { font-size: 1.3rem; line-height: 1.4; margin-bottom: 16px; }
+.intro .lede { font-size: 1.25em; line-height: 1.4; margin-bottom: 16px; }
 .links { color: var(--ink-faint); font-size: 0.95rem; }
 .links span { margin: 0 5px; }
 
@@ -178,7 +178,8 @@ html[data-theme="dark"] .theme-toggle .moon { display: none; }
   white-space: nowrap;
   text-transform: uppercase;
 }
-.entries .title { font-size: 1.12rem; text-decoration: none; }
+.entries .title { font-size: 1.12rem; line-height: 1.35; text-decoration: none; }
+.entries li > div { line-height: 1.35; }
 .entries .title:hover { text-decoration: underline; text-decoration-color: var(--seal); }
 .entries .ext {
   font-family: var(--mono);
@@ -200,7 +201,7 @@ html[data-theme="dark"] .theme-toggle .moon { display: none; }
 
 .page-head { margin: 0 0 40px; }
 .page-head h1 { font-size: 2.2rem; font-weight: 500; line-height: 1.15; margin: 0 0 8px; }
-.dek { margin: 0; font-style: italic; color: var(--ink-soft); font-size: 1.15rem; line-height: 1.45; }
+.dek { margin: 0; font-style: italic; color: var(--ink-soft); font-size: 1.1em; line-height: 1.45; }
 
 .year { margin: 0 0 36px; }
 .year-label { border-bottom: 1px solid var(--ink); padding-bottom: 6px; margin-bottom: 2px; }
@@ -225,12 +226,12 @@ html[data-theme="dark"] .theme-toggle .moon { display: none; }
   letter-spacing: -0.012em;
   text-wrap: balance;
 }
-.article-head .dek { font-size: 1.25rem; }
+.article-head .dek { font-size: 1.2em; }
 
 .hero { margin: 0 0 40px; }
 
 .prose { hyphens: auto; -webkit-hyphens: auto; }
-.prose > p:first-child { font-size: 1.15rem; line-height: 1.55; }
+.prose > p:first-child { font-size: 1.14em; line-height: 1.55; }
 .prose p, .prose ul, .prose ol { margin: 0 0 1.1em; }
 .prose li { margin: 0 0 .35em; }
 .prose li::marker { color: var(--ink-faint); }
@@ -318,7 +319,9 @@ figcaption {
   color: var(--ink-faint);
   font-style: italic;
 }
-html[data-theme="dark"] .figure img, html[data-theme="dark"] .hero img { filter: brightness(.92); }
+/* charts often have transparent backgrounds with dark labels: give them paper in dark mode */
+html[data-theme="dark"] .figure img { background: #eeece7; padding: 10px; border-radius: 3px; filter: brightness(.94); }
+html[data-theme="dark"] .hero img { filter: brightness(.92); }
 
 @media (min-width: 940px) {
   .figure.wide {

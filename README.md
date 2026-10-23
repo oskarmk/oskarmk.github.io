@@ -8,7 +8,7 @@ Personal site of Oskar Martin. Built with Jekyll, deployed by GitHub Pages (and 
    (for example `_posts/2026-11-02-why-ironman-entries-sell-out.md`).
 2. Fill in the front matter at the top: `title`, `subtitle`, `date`.
 3. Write in Markdown. The template shows every building block:
-   - figures: `{% include figure.html src="/images/posts/slug/chart.png" caption="…" size="wide" %}`
+   - figures: `{% include figure.html src="/images/posts/slug/chart.png" caption="…" width="wide" %}`
    - interactive charts: `{% include embed.html src="/charts/slug/chart.html" height="460" %}`
    - pull quote: a blockquote followed by `{: .pull}` on the next line
    - method / caveat box: a blockquote followed by `{: .note}`
