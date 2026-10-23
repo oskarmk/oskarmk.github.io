@@ -1,0 +1,40 @@
+<div class="parrot" id="parrot" title="Hello">
+  <svg viewBox="0 0 140 150" role="img" aria-label="Ink drawing of a parrot on a branch that watches your cursor">
+    <defs>
+      <filter id="brush" x="-10%" y="-10%" width="120%" height="120%">
+        <feTurbulence type="fractalNoise" baseFrequency="0.9" numOctaves="2" seed="7" result="n"/>
+        <feDisplacementMap in="SourceGraphic" in2="n" scale="1.8"/>
+      </filter>
+    </defs>
+    <g id="parrot-flip" filter="url(#brush)">
+      <!-- branch -->
+      <path class="ink-branch" d="M2,131 C30,126 62,124 92,122 C108,121 124,118 138,113" />
+      <path class="ink-twig" d="M104,121 C110,112 118,108 128,106" />
+      <path class="ink-leaf" d="M128,106 C122,100 126,94 134,92 C134,99 132,104 128,106 Z" />
+
+      <!-- tail + wing -->
+      <path class="wing" d="M72,72 C88,74 99,92 97,110 C95,124 104,136 114,146 C99,141 85,129 78,115 C72,101 68,85 72,72 Z" />
+      <!-- body -->
+      <path class="body" d="M58,66 C49,82 51,104 65,116 C73,122 87,122 93,114 C99,104 97,84 89,70 C83,60 66,56 58,66 Z" />
+      <path class="under" d="M86,98 C92,102 94,110 90,116 C87,112 85,105 86,98 Z" />
+      <!-- feather marks -->
+      <path class="feather" d="M76,82 q5,3 10,1 M78,92 q6,3 12,0 M80,102 q6,3 12,0 M86,112 q5,3 9,0" />
+      <!-- feet -->
+      <path class="foot" d="M69,117 l-2,9 M66,126 l3,0 M80,119 l0,8 M78,127 l4,0" />
+
+      <!-- head (rotates) -->
+      <g id="parrot-head">
+        <circle class="head" cx="56" cy="50" r="17" />
+        <path class="feather" d="M60,38 q4,3 8,2 M63,46 q4,3 8,1 M58,58 q4,2 8,0" />
+        <path class="beak" d="M42,45 C34,45 28,51 28,61 C28,66 31,68 33,66 C33,58 37,54 45,55 Z" />
+        <path class="beak-lower" d="M41,56 C37,58 37,62 40,63 C42,61 43,59 43,57 Z" />
+        <circle class="eye" cx="50" cy="45" r="4.4" />
+        <g id="parrot-pupil">
+          <circle class="pupil" cx="50" cy="45" r="2.3" />
+          <circle class="glint" cx="49" cy="44" r="0.8" />
+        </g>
+        <ellipse class="lid" id="parrot-lid" cx="50" cy="45" rx="5" ry="5" />
+      </g>
+    </g>
+  </svg>
+</div>

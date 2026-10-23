@@ -1,14 +1,14 @@
 title: Oskar Martin
 logo: "images/download (4).png"
-description: >
-  Software Developer with a strong emphasis in Robotic Process Automation (RPA) and a broad expertise in machine learning. Demonstrated success in developing and implementing RPA solutions to revitalize and automate outdated business processes, significantly increasing operational efficiency.
-
-  <br><br>
-  <div class="social-links">
-  <a href="https://www.linkedin.com/in/oskarmartin/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-  <a href="https://chusikowski.substack.com/" target="_blank"><i class="fa-solid fa-newspaper"></i> Substack</a>
-  <a href="https://www.instagram.com/zmadh.art/" target="_blank"><i class="fa-brands fa-instagram"></i> AI Art</a>
-  </div>
+description: Software developer focused on automation and machine learning. Data stories about sport and music.
+url: "https://oskarmk.github.io"
+author: Oskar Martin
 
 theme: jekyll-theme-minimal
-google_analytics: UA-000000-0
+plugins:
+  - jekyll-seo-tag
+
+exclude:
+  - README.md
+  - LICENSE
+  - sample_page.md
