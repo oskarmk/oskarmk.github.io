@@ -2,30 +2,36 @@
 <html lang="{{ site.lang | default: "en-US" }}">
   <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-
 {% seo %}
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Mono:wght@400&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="{{ "/assets/css/style.css?v=" | append: site.github.build_revision | relative_url }}">
-    {% include head-custom.html %}
+    <meta name="theme-color" content="#f4efe4" media="(prefers-color-scheme: light)">
+    <meta name="theme-color" content="#16140f" media="(prefers-color-scheme: dark)">
   </head>
   <body>
-    <div class="hero">
-      <div class="hero-inner">
-        {% if site.logo %}
-          <img class="avatar" src="{{site.logo | relative_url}}" alt="Logo" />
-        {% endif %}
-        <div class="hero-text">
-          <h1><a href="{{ "/" | absolute_url }}">{{ site.title | default: site.github.repository_name }}</a></h1>
-          <p class="tagline">{{ site.description | default: site.github.project_tagline }}</p>
-        </div>
-      </div>
-    </div>
-    <main>
+    {% include parrot.html %}
+
+    <main class="page">
+      <header class="masthead">
+        <h1><a href="{{ "/" | relative_url }}">{{ site.title }}</a></h1>
+      </header>
+
       {{ content }}
+
+      <footer class="colophon">
+        <span>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</span>
+        <a class="seal" href="{{ "/" | relative_url }}" aria-label="Home">
+          <svg viewBox="0 0 40 40" aria-hidden="true">
+            <rect x="2" y="2" width="36" height="36" rx="3" />
+            <text x="20" y="27" text-anchor="middle">OM</text>
+          </svg>
+        </a>
+      </footer>
     </main>
-    <footer>
-      <p>&copy; {{ 'now' | date: "%Y" }} {{ site.title }}</p>
-    </footer>
+
+    <script src="{{ "/assets/js/parrot.js" | relative_url }}" defer></script>
   </body>
 </html>

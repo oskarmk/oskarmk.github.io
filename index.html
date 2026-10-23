@@ -1,0 +1,63 @@
+---
+layout: default
+---
+
+<figure class="portrait">
+  <img src="{{ site.logo | relative_url }}" alt="Portrait of Oskar Martin" width="631" height="819">
+</figure>
+
+<section class="block">
+  <h2>About</h2>
+  <p>
+    Software developer with a strong emphasis on Robotic Process Automation and a broad
+    background in machine learning. I've built RPA solutions that revitalise and automate
+    outdated business processes, with a measurable lift in operational efficiency.
+  </p>
+  <p>
+    On the side I write data stories about sport and music on
+    <a href="https://chusikowski.substack.com/">Substack</a> and make
+    <a href="https://www.instagram.com/zmadh.art/">AI art</a>.
+  </p>
+  <p class="links">
+    <a href="https://www.linkedin.com/in/oskarmartin/">LinkedIn</a>
+    <span aria-hidden="true">·</span>
+    <a href="https://github.com/oskarmk">GitHub</a>
+    <span aria-hidden="true">·</span>
+    <a href="{{ '/pdf/Oskar Martin Resume EN.pdf' | relative_url }}">CV</a>
+  </p>
+</section>
+
+<section class="block">
+  <h2>Selected writings</h2>
+  <ul class="entries">
+    {% for post in site.data.writing %}{% if post.selected %}
+    <li>
+      <span class="num">№ {{ post.number }}</span>
+      <div>
+        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+        <p class="sub">{{ post.subtitle }}</p>
+      </div>
+    </li>
+    {% endif %}{% endfor %}
+  </ul>
+</section>
+
+<section class="block">
+  <h2>All posts</h2>
+  <ul class="entries compact">
+    {% for post in site.data.writing %}
+    <li>
+      <span class="num">№ {{ post.number }}</span>
+      <div>
+        <a class="title" href="{{ post.url }}">{{ post.title }}</a>
+        {% if post.notebook or post.code %}
+        <span class="extra">
+          {% if post.notebook %}<a href="{{ post.notebook }}">notebook</a>{% endif %}
+          {% if post.code %}<a href="{{ post.code }}">code</a>{% endif %}
+        </span>
+        {% endif %}
+      </div>
+    </li>
+    {% endfor %}
+  </ul>
+</section>
