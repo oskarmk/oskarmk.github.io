@@ -4,7 +4,6 @@ description: Software developer focused on automation and machine learning. Data
 url: "https://oskarmk.github.io"
 author: Oskar Martin
 
-theme: jekyll-theme-minimal
 plugins:
   - jekyll-seo-tag
 
@@ -12,3 +11,6 @@ exclude:
   - README.md
   - LICENSE
   - sample_page.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor
