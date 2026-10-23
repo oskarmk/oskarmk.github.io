@@ -1,51 +1,38 @@
-## Developer Portfolio Landing Page Template
+# oskarmk.github.io
 
-### Introduction
+Personal site of Oskar Martin. Built with Jekyll, deployed by GitHub Pages (and Vercel).
 
-Use this template if you need a quick developer / data science portfolio! Based on a Minimal Jekyll theme for GitHub Pages.
+## Publishing an article
 
-<img src="images/demo.gif?raw=true"/>
+1. Copy `_drafts/template.md` to `_posts/YYYY-MM-DD-short-slug.md`
+   (for example `_posts/2026-11-02-why-ironman-entries-sell-out.md`).
+2. Fill in the front matter at the top: `title`, `subtitle`, `date`.
+3. Write in Markdown. The template shows every building block:
+   - figures: `{% include figure.html src="/images/posts/slug/chart.png" caption="…" width="wide" %}`
+   - interactive charts: `{% include embed.html src="/charts/slug/chart.html" height="460" %}`
+   - pull quote: a blockquote followed by `{: .pull}` on the next line
+   - method / caveat box: a blockquote followed by `{: .note}`
+   - footnotes: `text[^1]` and `[^1]: the note` at the bottom
+4. Put images in `images/posts/<slug>/` and exported chart HTML in `charts/<slug>/`.
+5. Commit and push. The post appears at `/writing/<slug>/`, at the top of the homepage list,
+   on `/writing/`, and in the RSS feed (`/feed.xml`).
 
-### Installation
+Work in progress can stay in `_drafts/` — those files are never published.
 
-See full step by step tutorial [on Medium](https://medium.com/@evanca/set-up-your-portfolio-website-in-less-than-10-minutes-with-github-pages-d0efa8ff56fd).
-___
+Older articles published on Substack are listed in `_data/writing.yml`; add `selected: true`
+or edit the subtitles there.
 
-You can use the editor on GitHub to maintain and preview the content for your website in Markdown files.
+## Local preview
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
-
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
+```sh
+bundle install
+bundle exec jekyll serve --drafts
 ```
 
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+Then open http://localhost:4000. `--drafts` also shows files in `_drafts/`.
 
-### Roadmap
+## Other bits
 
-See the [open issues](https://github.com/evanca/quick-portfolio/issues) for a list of proposed features (and known issues).
-___
-
-### References
-
-[1] Jekyll theme "Minimal" for GitHub Pages: https://github.com/pages-themes/minimal (CC0 1.0 Universal License)
-<br>[2] Dummy photo via: https://pixabay.com/photos/man-male-adult-person-caucasian-1209494/ (Pixabay License)
-<br>[3] Dummy thumbnail image created by rawpixel.com: https://www.freepik.com/free-vector/set-elements-infographic_2807573.htm (Standard Freepik License)
+- `_includes/fish.html` + `assets/js/fish.js` — the koi in the corner
+- `assets/css/style.scss` — all styling; colours are CSS variables at the top
+  (`html[data-theme="dark"]` for dark mode)

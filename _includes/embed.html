@@ -1,0 +1,8 @@
+{% comment %}
+  Interactive chart (Plotly HTML export, Datawrapper, Flourish, Observable...):
+  {% include embed.html src="/charts/goals.html" height="460" caption="..." width="wide" %}
+{% endcomment %}
+<figure class="figure embed{% if include.width %} {{ include.width }}{% endif %}">
+  <iframe src="{{ include.src | relative_url }}" height="{{ include.height | default: 420 }}" loading="lazy" title="{{ include.title | default: include.caption | strip_html | default: 'Interactive chart' }}"></iframe>
+  {% if include.caption %}<figcaption>{{ include.caption | markdownify | remove: '<p>' | remove: '</p>' }}</figcaption>{% endif %}
+</figure>

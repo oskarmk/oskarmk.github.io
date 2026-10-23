@@ -1,0 +1,15 @@
+{% assign it = include.item %}
+<li>
+  <time class="when" datetime="{{ it.date | date_to_xmlschema }}">{{ it.date | date: "%b %Y" }}</time>
+  <div>
+    {% if it.external %}
+    <a class="title" href="{{ it.url }}">{{ it.title }}</a><span class="ext" title="Published on Substack"> Substack ↗</span>
+    {% else %}
+    <a class="title" href="{{ it.url | relative_url }}">{{ it.title }}</a>
+    {% endif %}
+    {% if it.subtitle %}<p class="sub">{{ it.subtitle }}</p>{% endif %}
+    {% if include.extras and it.notebook or include.extras and it.code %}
+    <p class="extra">{% if it.notebook %}<a href="{{ it.notebook }}">notebook</a>{% endif %}{% if it.code %}<a href="{{ it.code }}">code</a>{% endif %}</p>
+    {% endif %}
+  </div>
+</li>
